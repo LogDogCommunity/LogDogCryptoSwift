@@ -3,5 +3,6 @@ import XCTest
 import LogDogCryptoSwiftTests
 
 var tests = [XCTestCaseEntry]()
-tests += LogDogCryptoSwiftTests.allTests()
+tests += LogDogCryptoSwiftTests.__allTests()
+
 XCTMain(tests)
