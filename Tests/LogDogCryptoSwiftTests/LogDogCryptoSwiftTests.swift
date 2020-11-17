@@ -1,6 +1,6 @@
-import XCTest
 import LogDog
 @testable import LogDogCryptoSwift
+import XCTest
 
 final class LogDogCryptoSwiftTests: XCTestCase {
     func testExample() {

@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "LogDogCryptoSwift",
     platforms: [
-      .macOS(.v10_12), .iOS(.v9), .tvOS(.v9)
+        .macOS(.v10_12), .iOS(.v9), .tvOS(.v9),
     ],
     products: [
         .library(name: "LogDogCryptoSwift", targets: ["LogDogCryptoSwift"]),
